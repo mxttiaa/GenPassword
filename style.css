@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(164deg, rgba(38,70,83,1) 11%, rgba(42,157,143,1) 30%, rgba(233,196,106,1) 47%, rgba(244,162,97,1) 63%, rgba(231,111,81,1) 89%);
+}
+
+
+.container {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(100px);
+}
+
+h1 {
+    width: 100%;
+    padding: 15px;
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: rgb(38, 70, 83);
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(244, 162, 97);
+    background-color: rgb(233, 196, 106);
+    width: 80%;
+    height: 50px;
+    
+}
+h3{
+    font-size: 40px;
+    color: rgb(38, 70, 83);
+}
+#generetor {
+    width: 80%;
+    padding: 20px;
+}
+#PasswordSet{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#PasswordSet div {
+    margin: 10px;
+    padding: 10px 0 10px 0 ;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(38, 70, 83);
+}
+
+
+#PasswordSet div:first-child input{
+    border: unset;
+    outline: 0;
+    border-bottom: 2px solid rgb(38, 70, 83);
+    width: 50px;
+    font-size: 18px;
+    padding: 2px;
+    background: unset;
+}
+label {
+    font-size: 20px;
+}
+
+button {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: rgb(42, 157, 143);
+    border: 2px solid rgb(38, 70, 83);
+    color: rgb(38, 70, 83);
+}
+
+button:hover{
+    background-color: rgb(244, 162, 97);
+    border-color: rgb(231, 111, 81);
+}
+
+.nasc {
+    display: none;
+}
+
+.box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid rgb(38, 70, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segn {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(38, 70, 83);
+}

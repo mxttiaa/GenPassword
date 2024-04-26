@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate password</h1> <!--max 30ch-->
+        <div class="screen" ><h3 id="screen">000000000000000000000000000000</h3></div>
+        <div id="generetor">
+            <div id="PasswordSet">
+                <div>
+                    <label for="nCaratteri">Numero Caratteri</label>
+                    <input type="number" name="nCaratteri" id="nCaratteri" min="4" max="30" value="8">
+                </div>
+                <div id="divMin">
+                    <label for="minuscoli">Caratteri Minuscoli</label>
+                    <input type="checkbox" name="minuscoli" id="minuscoli" checked class="nasc">
+                    <span class="box"><span class="segn" id="span1"></span></span>
+                </div>
+                <div id="divMai">
+                    <label for="maiuscoli">Caratteri Maiuscoli</label>
+                    <input type="checkbox" name="maiuscoli" id="maiuscoli" class="nasc">
+                    <span class="box"><span class="" id="span2"></span></span>
+                </div>
+                <div id="divNum">
+                    <label for="numeri">Numeri</label>
+                    <input type="checkbox" name="numeri" id="numeri" checked class="nasc">
+                    <span class="box"><span class="segn" id="span3"></span></span>
+                </div>
+                <div  id="divSpe">
+                    <label for="speciali">Caratteri Speciali</label>
+                    <input type="checkbox" name="speciali" id="speciali" class="nasc">
+                    <span class="box"><span class="" id="span4"></span></span>
+                </div>
+                
+            </div>
+            <button id="button">Generate</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
